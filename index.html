@@ -6,139 +6,143 @@
     <title>Dashboard</title>
     <link rel="stylesheet" href = "style.css">
     <script src="script.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/00ec6621b9.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div class="dashboard">
-        <div class="dashboard-title-unit">
-            <img src="" alt="" class="dashboard-icon"> <!--add icon after-->
-            <div>Dashboard</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Home</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Profile</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Messages</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Tasks</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Communities</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Settings</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Support</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text">Privacy</div>
-        </div>
-        <div class="dashboard-unit">
-            <img src="" alt="" class="dashboard-icon"><!--add icon after-->
-            <div class="dashboard-text"></div>
-        </div>
-    </div>
-
-    <header>
-        <div class="top">
-            <input type="text">
-            <!--add icons here-->
-            <span class="name">Nadif Rahman</span>
-        </div>
-        <div class="bottom">
-            <div class="header-unit">
-                <!--the image-->
-                <div> <!--use flex-->
-                    <div>Hi there,</div>
-                    <div>Nadif Rahman (@nadif.rah)</div>
+    <div class="container">
+        <div class="dashboard">
+            <div class="dashboard-title-unit">
+                <i class="fa-solid fa-diamond"></i>
+                <div>Dashboard</div>
+            </div>
+            <div class="top-section">
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-house fa-fw"></i>
+                    <div class="dashboard-text">Home</div>
+                </div>
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-user fa-fw"></i>
+                    <div class="dashboard-text">Profile</div>
+                </div>
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-message fa-fw"></i>
+                    <div class="dashboard-text">Messages</div>
+                </div>
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-list-check fa-fw"></i>
+                    <div class="dashboard-text">Tasks</div>
+                </div>
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-people-group fa-fw"></i>
+                    <div class="dashboard-text">Communities</div>
                 </div>
             </div>
-            <div class="button-list">
-                <button>New</button>
-                <button>Upload</button>
-                <button>Share</button>
-            </div>
-        </div>
-    </header>
-
-    <div class="main">
-        <div class="project-container">
-            <div class="project-title">Your projects</div>
-            <div class="project-card-container">
-                <div class="project-card">
-                    <div class="card-title">Super cool project</div>
-                    <div class="card-text">Some random text here. Don't bother me, I am some sentence</div>
-                    <div class="card-icon-unit">
-                        <!--add icons here -->
-                    </div>
+            <div class="bottom-section">
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-gears fa-fw"></i>
+                    <div class="dashboard-text">Settings</div>
                 </div>
-                <div class="project-card">
-                    <div class="card-title">Less Cool Project</div>
-                    <div class="card-text">Here is another sentence. Just some text
-                        Need more text. Need a filler text. Come on, how much more. Okay this should be enough
-                    </div>
-                    <div class="card-icon-unit">
-                        <!--add icons here -->
-                    </div>
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-circle-info fa-fw"></i>
+                    <div class="dashboard-text">Support</div>
                 </div>
-                <div class="project-card">
-                    <div class="card-title">Impossible App</div>
-                    <div class="card-text">Some more filler text.
-                        Some more filler text. This is a lot of work. Please enough. Ok fine.
-                    </div>
-                    <div class="card-icon-unit">
-                        <!--add icons here -->
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-title">Easy Peasy App</div>
-                    <div class="card-text">Here is another sentence. Just some text
-                        Need more text. Need a filler text. Come on, how much more. Okay this should be enough</div>
-                    <div class="card-icon-unit">
-                        <!--add icons here -->
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-title">Ad block</div>
-                    <div class="card-text">Some more filler text.
-                        Some more filler text. This is a lot of work. Please enough. Ok fine.</div>
-                    <div class="card-icon-unit">
-                        <!--add icons here -->
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="card-title">Money Maker</div>
-                    <div class="card-text">Here is another sentence. Just some text
-                        Need more text. Need a filler text. Come on, how much more. Okay this should be enough</div>
-                    <div class="card-icon-unit">
-                        <!--add icons here -->
-                    </div>
+                <div class="dashboard-unit">
+                    <i class="fa-solid fa-lock fa-fw"></i>
+                    <div class="dashboard-text">Privacy</div>
                 </div>
             </div>
         </div>
-        <div class="sidebar-container">
-            <div class="sidebar-unit">
-                <div class="sidebar-title">Annoucements</div>
-                <div class="sidebar-content">
+        <header>
+            <div class="top">
+                <input type="text">
+                <!--add icons here-->
+                <span class="name">Nadif Rahman</span>
+            </div>
+            <div class="bottom">
+                <div class="header-unit">
+                    <!--the image-->
+                    <div> <!--use flex-->
+                        <div>Hi there,</div>
+                        <div>Nadif Rahman (@nadif.rah)</div>
+                    </div>
+                </div>
+                <div class="button-list">
+                    <button>New</button>
+                    <button>Upload</button>
+                    <button>Share</button>
+                </div>
+            </div>
+        </header>
+        <div class="main">
+            <div class="project-container">
+                <div class="project-title">Your projects</div>
+                <div class="project-card-container">
+                    <div class="project-card">
+                        <div class="card-title">Super cool project</div>
+                        <div class="card-text">Some random text here. Don't bother me, I am some sentence</div>
+                        <div class="card-icon-unit">
+                            <!--add icons here -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">Less Cool Project</div>
+                        <div class="card-text">Here is another sentence. Just some text
+                            Need more text. Need a filler text. Come on, how much more. Okay this should be enough
+                        </div>
+                        <div class="card-icon-unit">
+                            <!--add icons here -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">Impossible App</div>
+                        <div class="card-text">Some more filler text.
+                            Some more filler text. This is a lot of work. Please enough. Ok fine.
+                        </div>
+                        <div class="card-icon-unit">
+                            <!--add icons here -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">Easy Peasy App</div>
+                        <div class="card-text">Here is another sentence. Just some text
+                            Need more text. Need a filler text. Come on, how much more. Okay this should be enough</div>
+                        <div class="card-icon-unit">
+                            <!--add icons here -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">Ad block</div>
+                        <div class="card-text">Some more filler text.
+                            Some more filler text. This is a lot of work. Please enough. Ok fine.</div>
+                        <div class="card-icon-unit">
+                            <!--add icons here -->
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="card-title">Money Maker</div>
+                        <div class="card-text">Here is another sentence. Just some text
+                            Need more text. Need a filler text. Come on, how much more. Okay this should be enough</div>
+                        <div class="card-icon-unit">
+                            <!--add icons here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sidebar-container">
+                <div class="sidebar-unit">
+                    <div class="sidebar-title">Annoucements</div>
+                    <div class="sidebar-content">
+                            <!--do the content later-->
+                    </div>
+                </div>
+                <div class="sidebar-unit">
+                    <div class="sidebar-title">Trending</div>
+                    <div class="sidebar-content">
                         <!--do the content later-->
-                </div>
-            </div>
-            <div class="sidebar-unit">
-                <div class="sidebar-title">Trending</div>
-                <div class="sidebar-content">
-                    <!--do the content later-->
+                    </div>
                 </div>
             </div>
         </div>
