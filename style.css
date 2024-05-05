@@ -1,5 +1,5 @@
 :root {
-    --main-bg-color: #4338ca;
+    --main-bg-color: #1e1b4b;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
 }
@@ -71,6 +71,96 @@ body {
 header {
     grid-column: 2/3;
     grid-row: 1/2;
+    display: grid;
+    grid-row: auto auto;
+    grid-column: auto;
+    font-size: 1.3rem;
+    color: var(--main-bg-color);
+}
+
+header .top {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0.5rem;
+    margin-left: 1.5rem;
+}
+
+.top .search-bar {
+    
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex: 1;
+}
+
+.top input {
+    border-radius: 10px;
+    height: 2em;   
+    border: none;
+    background-color: #D3D3D3;
+    flex: 1 1 0;
+    max-width: 800px;
+}
+
+.top .icons {
+    display: flex;
+    font-size: 1rem;
+    align-items: center;
+    gap: 1.3rem;
+    margin-left: 1rem;
+}
+
+.pfp {
+    height: 2.4em;
+    width: auto;
+    border-radius: 50%;
+}
+
+header .bottom {
+    grid-column: 1/2;
+    grid-row: 2/3;
+    margin: 2rem;
+    margin-left: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom .header-unit {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-family: 0.4rem;
+}
+.header-unit > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.header-unit > div > div:first-child {
+    font-size: 0.9rem;
+}
+
+header .button-list {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    justify-content: space-around;
+}
+
+header .button-list button {
+    font-size: 1rem;
+    height: 1.5rem;
+    width: 5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    border-radius: 10px;
+    background-color: var(--main-bg-color);
+    color: white;
+    border: solid black 0.1rem;
 }
 
 .main {
